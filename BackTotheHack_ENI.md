@@ -49,7 +49,9 @@ response="7c6a180b36896a0a8c02787eeafb0e4c"``
 - !! Outils d'énumération OK !!
 http://51.254.115.112:4567/ 
 
-- On peut utiliser l'outil DirBuster avec la wordlist "RockYou.txt" et l'extension html, après je sais pas...
+- On peut utiliser l'outil DirBuster avec la wordlist "RockYou.txt" et l'extension html, 
+- Dans l'onglet "result", on voit apparaître "file /tinkerbell1.html
+- Si on essaye de se rendre sur http://51.254.115.112:4567/tinkerbell1.html --> ENI{I_ain't_'fraid_of_no_ghost}
 
 # Steganographie 
 
