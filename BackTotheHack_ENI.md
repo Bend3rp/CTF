@@ -28,3 +28,13 @@
 
 - Le format des requêtes ICMP diffère selon les OS
 
+# Take a SIP (réseau) 
+
+- Retrouver le mot de passe utilisé par** l’administrateur** pour se connecter à l’infrastructure SIP.
+- On a un fichier pdf, en descendant on tombe là-dessus:
+
+`Authorization: Digest username="eniadmin", realm=«esdhackademy»,
+nonce="626ab425", uri="sip:172.65.10.250", algorithm=MD5,
+response="7c6a180b36896a0a8c02787eeafb0e4c"``
+
+- le mot de passe est 7c6a180b36896a0a8c02787eeafb0e4c haché en MD5
